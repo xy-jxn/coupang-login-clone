@@ -7,7 +7,6 @@ function CheckBox() {
   
   const handleChack = () => {
     setCheck(!check);
-    console.log(check);
   };
 
   return <S.Box src={Check} onClick={handleChack} check={check} />;

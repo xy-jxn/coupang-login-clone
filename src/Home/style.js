@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { darken } from "polished";
 
 export const Wrapper = styled.div`
   width: 100%;
@@ -66,6 +67,10 @@ export const Button = styled.button`
   width: 100%;
   color: #fff;
   background-color: #0074e9;
+  &:active {
+    background-color: ${ darken(0.1, '#0074e9')};
+    color: ${ darken(0.1, '#fff')};
+  }
   font-size: 17px;
   font-weight: bold;
   line-height: 20px;
