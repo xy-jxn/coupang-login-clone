@@ -1,13 +1,8 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Home"
+import "./global.css"
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        
-      </Routes>
-    </Router>
-  );
+  return <Home />;
 }
 
 export default App;
